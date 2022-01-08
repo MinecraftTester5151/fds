@@ -1,432 +1,7 @@
--- Gui to Lua
--- Version: 3.2
+-- Made By Airsoft
 
--- Instances:
-
-local ScreenGui = Instance.new("ScreenGui")
-local Frame = Instance.new("Frame")
-local UICorner = Instance.new("UICorner")
-local Side = Instance.new("Frame")
-local TextLabel = Instance.new("TextLabel")
-local UICorner_2 = Instance.new("UICorner")
-local MainButton = Instance.new("TextButton")
-local UICorner_3 = Instance.new("UICorner")
-local VisualsButton = Instance.new("TextButton")
-local UICorner_4 = Instance.new("UICorner")
-local PlayerButton = Instance.new("TextButton")
-local UICorner_5 = Instance.new("UICorner")
-local MiscButton = Instance.new("TextButton")
-local UICorner_6 = Instance.new("UICorner")
-local CreditsButton = Instance.new("TextButton")
-local UICorner_7 = Instance.new("UICorner")
-local Main = Instance.new("Frame")
-local UICorner_8 = Instance.new("UICorner")
-local FovSetter = Instance.new("TextButton")
-local UICorner_9 = Instance.new("UICorner")
-local ProjectBullSh1t = Instance.new("TextButton")
-local UICorner_10 = Instance.new("UICorner")
-local TrashTalkJ = Instance.new("TextButton")
-local UICorner_11 = Instance.new("UICorner")
-local infjump = Instance.new("TextButton")
-local UICorner_12 = Instance.new("UICorner")
-local SuperSpeedC = Instance.new("TextButton")
-local UICorner_13 = Instance.new("UICorner")
-local AimbotV2withabitsilentaim = Instance.new("TextButton")
-local UICorner_14 = Instance.new("UICorner")
-local SoftVortex12 = Instance.new("TextButton")
-local UICorner_15 = Instance.new("UICorner")
-local AimbotV2 = Instance.new("TextButton")
-local UICorner_16 = Instance.new("UICorner")
-local Aimbot = Instance.new("TextButton")
-local UICorner_17 = Instance.new("UICorner")
-local Visuals = Instance.new("Frame")
-local UICorner_18 = Instance.new("UICorner")
-local Esp = Instance.new("TextButton")
-local UICorner_19 = Instance.new("UICorner")
-local Clickitonlyonce = Instance.new("TextLabel")
-local ESPGUITOGGLES = Instance.new("TextButton")
-local UICorner_20 = Instance.new("UICorner")
-local EspGuiwithToggles = Instance.new("TextLabel")
-local Player = Instance.new("Frame")
-local UICorner_21 = Instance.new("UICorner")
-local KorbloxLeftLeg = Instance.new("TextButton")
-local UICorner_22 = Instance.new("UICorner")
-local KorbloxRightLeg = Instance.new("TextButton")
-local UICorner_23 = Instance.new("UICorner")
-local AnimationCombos = Instance.new("TextButton")
-local UICorner_24 = Instance.new("UICorner")
-local Animations = Instance.new("TextButton")
-local UICorner_25 = Instance.new("UICorner")
-local FaceChanger = Instance.new("TextButton")
-local UICorner_26 = Instance.new("UICorner")
-local Headless = Instance.new("TextButton")
-local UICorner_27 = Instance.new("UICorner")
-local Misc = Instance.new("Frame")
-local UICorner_28 = Instance.new("UICorner")
-local PANICBUTTON = Instance.new("TextButton")
-local UICorner_29 = Instance.new("UICorner")
-local infyield = Instance.new("TextButton")
-local UICorner_30 = Instance.new("UICorner")
-local FaceChanger_2 = Instance.new("TextButton")
-local UICorner_31 = Instance.new("UICorner")
-local Fov120 = Instance.new("TextButton")
-local UICorner_32 = Instance.new("UICorner")
-local Fov140 = Instance.new("TextButton")
-local UICorner_33 = Instance.new("UICorner")
-local DefaultFov = Instance.new("TextButton")
-local UICorner_34 = Instance.new("UICorner")
-local Fov90 = Instance.new("TextButton")
-local UICorner_35 = Instance.new("UICorner")
-local FovSetter_2 = Instance.new("TextButton")
-local UICorner_36 = Instance.new("UICorner")
-local FpsCapper = Instance.new("TextButton")
-local UICorner_37 = Instance.new("UICorner")
-local Credits = Instance.new("Frame")
-local UICorner_38 = Instance.new("UICorner")
-local TextLabel_2 = Instance.new("TextLabel")
-local TextLabel_3 = Instance.new("TextLabel")
-local TextLabel_4 = Instance.new("TextLabel")
-local discordinvitelink = Instance.new("TextButton")
-local UICorner_39 = Instance.new("UICorner")
-local GA = Instance.new("Frame")
-local UICorner_40 = Instance.new("UICorner")
-local Aimbot_2 = Instance.new("TextButton")
-local UICorner_41 = Instance.new("UICorner")
-local CreditsForGA = Instance.new("TextButton")
-local UICorner_42 = Instance.new("UICorner")
-local discordinvitelink_2 = Instance.new("TextButton")
-local UICorner_43 = Instance.new("UICorner")
-local UICorner_44 = Instance.new("UICorner")
-local GAButton = Instance.new("TextButton")
-local UICorner_45 = Instance.new("UICorner")
-
---Properties:
-
-ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-ScreenGui.ResetOnSpawn = false
-
-Frame.Parent = ScreenGui
-Frame.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-Frame.BorderColor3 = Color3.fromRGB(29, 29, 29)
-Frame.Position = UDim2.new(0.236749113, 0, 0.236477986, 0)
-Frame.Size = UDim2.new(0, 596, 0, 419)
-
-UICorner.Parent = Frame
-
-Side.Name = "Side"
-Side.Parent = Frame
-Side.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-Side.BorderColor3 = Color3.fromRGB(29, 29, 29)
-Side.Size = UDim2.new(0, 130, 0, 419)
-
-TextLabel.Parent = Side
-TextLabel.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-TextLabel.BorderColor3 = Color3.fromRGB(29, 29, 29)
-TextLabel.Position = UDim2.new(0.0461538471, 0, 0.906886578, 0)
-TextLabel.Size = UDim2.new(0, 128, 0, 31)
-TextLabel.Font = Enum.Font.Creepster
-TextLabel.Text = "SoftVortex 1.3"
-TextLabel.TextColor3 = Color3.fromRGB(255, 213, 0)
-TextLabel.TextSize = 24.000
-
-UICorner_2.Parent = Side
-
-MainButton.Name = "MainButton"
-MainButton.Parent = Frame
-MainButton.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-MainButton.BorderColor3 = Color3.fromRGB(29, 29, 29)
-MainButton.Position = UDim2.new(0, 0, 0.0572792366, 0)
-MainButton.Size = UDim2.new(0, 134, 0, 35)
-MainButton.Font = Enum.Font.Creepster
-MainButton.Text = "Main"
-MainButton.TextColor3 = Color3.fromRGB(255, 213, 0)
-MainButton.TextSize = 34.000
-
-UICorner_3.Parent = MainButton
-
-VisualsButton.Name = "VisualsButton"
-VisualsButton.Parent = Frame
-VisualsButton.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-VisualsButton.BorderColor3 = Color3.fromRGB(29, 29, 29)
-VisualsButton.Position = UDim2.new(0, 0, 0.202863961, 0)
-VisualsButton.Size = UDim2.new(0, 134, 0, 35)
-VisualsButton.Font = Enum.Font.Creepster
-VisualsButton.Text = "Visuals"
-VisualsButton.TextColor3 = Color3.fromRGB(255, 213, 0)
-VisualsButton.TextSize = 34.000
-
-UICorner_4.Parent = VisualsButton
-
-PlayerButton.Name = "PlayerButton"
-PlayerButton.Parent = Frame
-PlayerButton.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-PlayerButton.BorderColor3 = Color3.fromRGB(29, 29, 29)
-PlayerButton.Position = UDim2.new(0.00503355684, 0, 0.346062064, 0)
-PlayerButton.Size = UDim2.new(0, 134, 0, 35)
-PlayerButton.Font = Enum.Font.Creepster
-PlayerButton.Text = "Player"
-PlayerButton.TextColor3 = Color3.fromRGB(255, 213, 0)
-PlayerButton.TextSize = 34.000
-
-UICorner_5.Parent = PlayerButton
-
-MiscButton.Name = "MiscButton"
-MiscButton.Parent = Frame
-MiscButton.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-MiscButton.BorderColor3 = Color3.fromRGB(29, 29, 29)
-MiscButton.Position = UDim2.new(0.00503355684, 0, 0.486873507, 0)
-MiscButton.Size = UDim2.new(0, 134, 0, 35)
-MiscButton.Font = Enum.Font.Creepster
-MiscButton.Text = "Misc"
-MiscButton.TextColor3 = Color3.fromRGB(255, 213, 0)
-MiscButton.TextSize = 34.000
-
-UICorner_6.Parent = MiscButton
-
-CreditsButton.Name = "CreditsButton"
-CreditsButton.Parent = Frame
-CreditsButton.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-CreditsButton.BorderColor3 = Color3.fromRGB(29, 29, 29)
-CreditsButton.Position = UDim2.new(0.00503355684, 0, 0.603818595, 0)
-CreditsButton.Size = UDim2.new(0, 134, 0, 35)
-CreditsButton.Font = Enum.Font.Creepster
-CreditsButton.Text = "Credits"
-CreditsButton.TextColor3 = Color3.fromRGB(255, 213, 0)
-CreditsButton.TextSize = 34.000
-
-UICorner_7.Parent = CreditsButton
-
-Main.Name = "Main"
-Main.Parent = Frame
-Main.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-Main.BorderColor3 = Color3.fromRGB(29, 29, 29)
-Main.Position = UDim2.new(0.229865775, 0, 0, 0)
-Main.Size = UDim2.new(0, 459, 0, 419)
-Main.Visible = false
-
-UICorner_8.Parent = Main
-
-FovSetter.Name = "Fov Setter"
-FovSetter.Parent = Main
-FovSetter.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-FovSetter.BorderColor3 = Color3.fromRGB(44, 44, 44)
-FovSetter.Position = UDim2.new(0.0594998375, 0, 0.821002364, 0)
-FovSetter.Size = UDim2.new(0, 404, 0, 35)
-FovSetter.Font = Enum.Font.Creepster
-FovSetter.Text = "Fov Setter"
-FovSetter.TextColor3 = Color3.fromRGB(255, 213, 0)
-FovSetter.TextSize = 34.000
-FovSetter.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet(('https://pastebin.com/raw/eew88WnZ'),true))()
-end)
-UICorner_9.Parent = FovSetter
-
-ProjectBullSh1t.Name = "ProjectBullSh1t"
-ProjectBullSh1t.Parent = Main
-ProjectBullSh1t.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-ProjectBullSh1t.BorderColor3 = Color3.fromRGB(44, 44, 44)
-ProjectBullSh1t.Position = UDim2.new(0.0594998375, 0, 0.687350869, 0)
-ProjectBullSh1t.Size = UDim2.new(0, 404, 0, 35)
-ProjectBullSh1t.Font = Enum.Font.Creepster
-ProjectBullSh1t.Text = "ProjectBullSh1t"
-ProjectBullSh1t.TextColor3 = Color3.fromRGB(255, 213, 0)
-ProjectBullSh1t.TextSize = 34.000
-ProjectBullSh1t.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet(('https://pastebin.com/raw/eew88WnZ'),true))()
-end)
-UICorner_10.Parent = ProjectBullSh1t
-
-TrashTalkJ.Name = "Trash Talk (J)"
-TrashTalkJ.Parent = Main
-TrashTalkJ.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-TrashTalkJ.BorderColor3 = Color3.fromRGB(44, 44, 44)
-TrashTalkJ.Position = UDim2.new(0.0594998375, 0, 0.551312685, 0)
-TrashTalkJ.Size = UDim2.new(0, 404, 0, 35)
-TrashTalkJ.Font = Enum.Font.Creepster
-TrashTalkJ.Text = "Trash Talk (J)"
-TrashTalkJ.TextColor3 = Color3.fromRGB(255, 213, 0)
-TrashTalkJ.TextSize = 34.000
-TrashTalkJ.MouseButton1Down:connect(function()
-
-	local plr = game.Players.LocalPlayer
-	repeat wait() until plr.Character
-	local char = plr.Character
-
-	local garbage = {
-		"destroyed";
-		"bad skid";
-		"my father has more skill than you";
-		"";
-		"imagine being you right now";
-		"why do you even try";
-		"I didn't think you were this bad";
-		"";
-		"are u new entry?";
-		"keep crying for this L";
-		"thank you for your time";
-		"time to take out the trash";
-		"did you get worse?";
-		"";
-
-	}
-
-	function TrashTalk(inputObject, gameProcessedEvent)
-		if inputObject.KeyCode == Enum.KeyCode.J and gameProcessedEvent == false then
-			game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer(
-				garbage[math.random(1,#garbage)],
-				"All"
-			)
-		end
-	end
-
-	game:GetService("UserInputService").InputBegan:connect(TrashTalk)
-end)
-UICorner_11.Parent = TrashTalkJ
-
-infjump.Name = "inf jump"
-infjump.Parent = Main
-infjump.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-infjump.BorderColor3 = Color3.fromRGB(44, 44, 44)
-infjump.Position = UDim2.new(0.0594998375, 0, 0.403341293, 0)
-infjump.Size = UDim2.new(0, 185, 0, 35)
-infjump.Font = Enum.Font.Creepster
-infjump.Text = "inf jump"
-infjump.TextColor3 = Color3.fromRGB(255, 213, 0)
-infjump.TextSize = 34.000
-infjump.MouseButton1Down:connect(function()
-	-- Subscribe to E P I C   H A C K S
-	-- Version: 3.2
-
-	-- Instances:
-
-	local ScreenGui = Instance.new("ScreenGui")
-	local main = Instance.new("Frame")
-	local TextLabel = Instance.new("TextLabel")
-	local Frame = Instance.new("Frame")
-	local INFJUMP = Instance.new("TextButton")
-	local TextLabel_2 = Instance.new("TextLabel")
-
-	--Properties:
-
-	ScreenGui.Parent = game.CoreGui
-
-	main.Name = "main"
-	main.Parent = ScreenGui
-	main.Active = true
-	main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	main.BorderSizePixel = 0
-	main.Position = UDim2.new(0.119258665, 0, 0, 0)
-	main.Size = UDim2.new(0, 146, 0, 28)
-	main.Active = true
-	main.Draggable = false
-
-	TextLabel.Parent = main
-	TextLabel.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
-	TextLabel.BorderSizePixel = 0
-	TextLabel.Size = UDim2.new(0, 146, 0, 28)
-	TextLabel.Font = Enum.Font.SciFi
-	TextLabel.Text = "Misc"
-	TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel.TextSize = 17.000
-	TextLabel.TextWrapped = true
-
-	Frame.Parent = main
-	Frame.BackgroundColor3 = Color3.fromRGB(86, 86, 86)
-	Frame.BorderSizePixel = 0
-	Frame.Position = UDim2.new(0, 0, 1, 0)
-	Frame.Size = UDim2.new(0, 146, 0, 61)
-
-	INFJUMP.Name = "INFJUMP"
-	INFJUMP.Parent = main
-	INFJUMP.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-	INFJUMP.BorderSizePixel = 0
-	INFJUMP.Position = UDim2.new(0.794520497, 0, 1.6785717, 0)
-	INFJUMP.Size = UDim2.new(0, 21, 0, 21)
-	INFJUMP.Font = Enum.Font.SourceSans
-	INFJUMP.Text = "inf jump"
-	INFJUMP.TextColor3 = Color3.fromRGB(0, 0, 0)
-	INFJUMP.TextSize = 14.000
-	INFJUMP.MouseButton1Down:connect(function()
-		local Player = game:GetService'Players'.LocalPlayer;
-		local UIS = game:GetService'UserInputService';
-
-		_G.JumpHeight = 50;
-
-		function Action(Object, Function) if Object ~= nil then Function(Object); end end
-
-		UIS.InputBegan:connect(function(UserInput)
-			if UserInput.UserInputType == Enum.UserInputType.Keyboard and UserInput.KeyCode == Enum.KeyCode.Space then
-				Action(Player.Character.Humanoid, function(self)
-					if self:GetState() == Enum.HumanoidStateType.Jumping or self:GetState() == Enum.HumanoidStateType.Freefall then
-						Action(self.Parent.HumanoidRootPart, function(self)
-							self.Velocity = Vector3.new(0, _G.JumpHeight, 0);
-						end)
-					end
-				end)
-			end
-		end)
-	end)
-
-	TextLabel_2.Parent = main
-	TextLabel_2.BackgroundColor3 = Color3.fromRGB(38, 38, 38)
-	TextLabel_2.BorderSizePixel = 0
-	TextLabel_2.Position = UDim2.new(0.0547945201, 0, 1.57142854, 0)
-	TextLabel_2.Size = UDim2.new(0, 94, 0, 28)
-	TextLabel_2.Font = Enum.Font.SciFi
-	TextLabel_2.Text = "Inf jump"
-	TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-	TextLabel_2.TextSize = 17.000
-	TextLabel_2.TextWrapped = true
-
-	-- Scripts:
-
-	local function TKDWQ_fake_script() -- INFJUMP.LocalScript 
-		local script = Instance.new('LocalScript', INFJUMP)
-
-		function zigzag(X) return math.acos(math.cos(X*math.pi))/math.pi end
-
-		counter = 0
-
-		while wait(0.1)do
-			script.Parent.BackgroundColor3 = Color3.fromHSV(zigzag(counter),1,1)
-
-			counter = counter + 0.01
-		end
-	end
-	coroutine.wrap(TKDWQ_fake_script)()
-end)
-UICorner_12.Parent = infjump
-
-SuperSpeedC.Name = "Super Speed (C)"
-SuperSpeedC.Parent = Main
-SuperSpeedC.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-SuperSpeedC.BorderColor3 = Color3.fromRGB(44, 44, 44)
-SuperSpeedC.Position = UDim2.new(0.537, 0, 0.263000011, 0)
-SuperSpeedC.Size = UDim2.new(0, 183, 0, 35)
-SuperSpeedC.Font = Enum.Font.Creepster
-SuperSpeedC.Text = "Super Speed (C)"
-SuperSpeedC.TextColor3 = Color3.fromRGB(255, 213, 0)
-SuperSpeedC.TextSize = 34.000
-SuperSpeedC.MouseButton1Down:connect(function()
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/angeloX041/Speedc/main/SuperSpeedC ", true))()
-end)
-UICorner_13.Parent = SuperSpeedC
-
-AimbotV2withabitsilentaim.Name = "Aimbot V2 with a bit silentaim"
-AimbotV2withabitsilentaim.Parent = Main
-AimbotV2withabitsilentaim.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-AimbotV2withabitsilentaim.BorderColor3 = Color3.fromRGB(44, 44, 44)
-AimbotV2withabitsilentaim.Position = UDim2.new(0.0594998375, 0, 0.26252985, 0)
-AimbotV2withabitsilentaim.Size = UDim2.new(0, 185, 0, 35)
-AimbotV2withabitsilentaim.Font = Enum.Font.Creepster
-AimbotV2withabitsilentaim.Text = "AimbotV2+Silentaim"
-AimbotV2withabitsilentaim.TextColor3 = Color3.fromRGB(255, 213, 0)
-AimbotV2withabitsilentaim.TextSize = 26.000
-AimbotV2withabitsilentaim.MouseButton1Down:connect(function()
-	-- Fixed By Cloudster
-
-	function cmds()
-		print([[
+function cmds()
+    print([[
  
     ;prefix - Changes prefix
     ;s, ;silent, ;silentaim - silentaim
@@ -464,1074 +39,499 @@ AimbotV2withabitsilentaim.MouseButton1Down:connect(function()
  
  
     ]])
-	end
-	cmds()
-
-	local Players = game:GetService("Players")
-	local lp = Players.LocalPlayer
-	local mouse = lp:GetMouse()
-	local uis = game:GetService("UserInputService")
-	local rservice = game:GetService("RunService")
-	local cam = workspace.CurrentCamera
-	local NormalGravity = game.Workspace.Gravity
-
-	local Raw = getrawmetatable(game)
-	local Caller = checkcaller or is_protosmasher_caller or Cer.isCerus
-	local CallingScript = getcallingscript or get_calling_script
-	local Closure = newcclosure or read_me or function(Func) return Func end
-	local CallingMethod = getnamecallmethod or get_namecall_method
-	setreadonly(Raw,false)
-	local NewIndex = Raw.__newindex;
-	Raw.__newindex = Closure(function(self,Property,Value)
-		if Caller() then return NewIndex(self,Property,Value) end
-		if Property == "WalkSpeed" then return 16 end
-		if Property == "JumpPower" then return 50 end 
-		if Property == "HipHeight" then return 0 end 
-		if self == workspace and Property == "Gravity" then return NormalGravity end
-		if Property == "CFrame" and self:IsDescendantOf(lp.Character) then return end 
-		return NewIndex(self,Property,Value)
-	end)
-	local Namecall = Raw.__namecall;
-	Raw.__namecall = Closure(function(self,...)
-		local Args = {...}
-		if Caller() then 
-			if CallingMethod() == "FindFirstChild" and Args[1] == "HumanoidRootPart" then 
-				Args[1] = "HumanoidRootPart" 
-				return Namecall(self,unpack(Args))
-			end
-			return Namecall(self,...) 
-		end 
-		if CallingMethod() == "Destroy" or CallingMethod() == "Kick" then 
-			if self == lp then return wait(9e9) end
-			if tostring(self) == 'BodyGyro' or tostring(self) == 'BodyVelocity' then return wait(9e9) end 
-		end
-		if CallingMethod() == "BreakJoints" and self == lp.Character then return wait(9e9) end
-		return Namecall(self,...)
-	end)
-	setreadonly(Raw,true)
-
-
-	function getClosestToMouse()
-		local closestdis = math.huge
-		local closestplr
-		for i,v in pairs(Players:GetPlayers()) do
-			if v:DistanceFromCharacter(mouse.Hit.p) < closestdis and v ~= lp and v.Character and v.Character:FindFirstChild("Head") then
-				closestplr = v
-				closestdis = v:DistanceFromCharacter(mouse.Hit.p)
-			end
-		end
-		if not closestplr then return lp end
-		return closestplr
-	end
-
-	function selp(player)
-		local bbg = Instance.new("BillboardGui",game.CoreGui)
-		bbg.Name = player.Name
-		bbg.AlwaysOnTop = true
-		bbg.Enabled = true
-		bbg.Size = UDim2.new(1,0,1,0)
-		bbg.StudsOffset = Vector3.new(0,2,0)
-		local tlabel = Instance.new("TextLabel",bbg)
-		tlabel.BackgroundTransparency = 1
-		tlabel.Size = UDim2.new(1,0,1,0)
-		tlabel.Text = player.Name
-		tlabel.TextColor3 = Color3.new(255,125,0)
-	end
-
-	function findplayer(args, tf)
-		local Targoot
-		if tf then
-			for _,v in next, game.Players:GetPlayers() do
-				if v.DisplayName:lower():sub(1,#args) == args:lower() then
-					Targoot = v
-				end
-			end
-		else
-			for _,v in next, game.Players:GetPlayers() do
-				if v.Name:lower():sub(1,#args) == args:lower() then
-					Targoot = v
-				end
-			end
-		end
-		return Targoot
-	end
-
-	local Prefix = "l"
-
-	local screengui = Instance.new("ScreenGui",game.CoreGui)
-	local frame = Instance.new("Frame",screengui)
-	local cmdBar = Instance.new("TextBox",frame)
-	frame.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
-	frame.BorderSizePixel = 2
-	frame.Position = UDim2.new(0, -4000, 0, mouse.ViewSizeY / 2)
-	frame.Size = UDim2.new(0, 30, 0, 20)
-	cmdBar.BackgroundTransparency = 1.000
-	cmdBar.Size = UDim2.new(0, 20, 0, 20)
-	cmdBar.TextColor3 = Color3.fromRGB(255, 255, 255)
-	cmdBar.TextSize = 16
-	cmdBar.TextXAlignment = Enum.TextXAlignment.Left
-
-	function notify(text)
-		local screengui = Instance.new("ScreenGui", game.CoreGui)
-		local NOTIF = Instance.new("TextLabel", screengui)
-		NOTIF.Position = UDim2.new(0, -500, 0.5, 0)
-		NOTIF:TweenPosition(UDim2.new(0, 0, 0.5, 0), "Out", "Linear", 0.2, false)
-		NOTIF.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
-		NOTIF.BorderColor3 = Color3.fromRGB(255, 255, 255)
-		NOTIF.Size = UDim2.new(1, 0, 0, 20)
-		NOTIF.Font = Enum.Font.SourceSans
-		NOTIF.Text = text
-		NOTIF.TextColor3 = Color3.fromRGB(255, 255, 255)
-		NOTIF.TextSize = 25
-		game.Debris:AddItem(screengui, 2.3)
-	end
-
-	local akey = Enum.KeyCode.Q
-	local keyss = false
-	local silentaim = true
-	local camlock = true
-	local prediction = 5
-	local shiftdown = false
-	local altering = false
-	local recording = false
-	local as = false
-	local ar = false
-	local day = false
-	local night = false
-
-	local sg = Instance.new("ScreenGui",game.CoreGui)
-	local button = Instance.new("TextButton",sg)
-	button.Position = UDim2.new(1,-200,0.5,-25)
-	button.Text = tostring(akey)
-	button.Size = UDim2.new(0,50,0,50)
-
-	uis.InputBegan:Connect(function(key)
-		if key.KeyCode == Enum.KeyCode.LeftShift then
-			shiftdown = true
-		end
-		if key.KeyCode == Enum.KeyCode.LeftAlt then
-			altering = true
-		end
-		if key.KeyCode == Enum.KeyCode.R then
-			if lp.Character and lp.Character:FindFirstChildOfClass("Tool") then
-				game.ReplicatedStorage.MainRemote:FireServer("Reload")
-			end
-		end
-		if recording == false and key ~= nil then
-			if key.KeyCode == akey then
-				keyss = true
-				plr = getClosestToMouse()
-			end
-		end
-		if key ~= nil and recording then
-			akey = key.KeyCode
-			button.Text = tostring(key.KeyCode)
-			recording = false
-		end
-	end)
-	uis.InputEnded:Connect(function(key)
-		if key.KeyCode == Enum.KeyCode.LeftShift then
-			shiftdown = false
-		end
-		if key.KeyCode == Enum.KeyCode.LeftAlt then
-			altering = false
-		end
-		if recording == false and key ~= nil then
-			if key.KeyCode == akey then
-				keyss = false
-				plr = nil
-			end
-		end
-	end)
-
-	button.MouseButton1Click:Connect(function()
-		recording = true
-		button.Text = "..."
-	end)
-
-	mouse.KeyDown:Connect(function(key)
-		if key == "" then
-			if lp.Character then
-				lp.Character:Destroy()
-			end
-		end
-		if key == Prefix then
-			frame:TweenPosition(UDim2.new(0, 0, 0.5, 0), 1, 0, 0.3, 1)
-			cmdBar:CaptureFocus()
-		end
-	end)
-
-	mouse.Button1Down:Connect(function()
-		if altering then
-			if lp.Character and lp.Character:FindFirstChild("HumanoidRootPart") then
-				local partt = Instance.new("Part", lp.Character)
-				partt.Anchored = true
-				partt.CanCollide = false
-				partt.Size = Vector3.new(2,2,1)
-				partt.Transparency = 1
-				partt.CFrame = mouse.Hit + Vector3.new(0,3.5,0)
-				game.Debris:AddItem(partt, 0.05)
-				local weld = Instance.new("Weld", partt)
-				weld.Part0 = partt
-				weld.Part1 = lp.Character:FindFirstChild("HumanoidRootPart")
-			end
-		end
-	end)
-
-	cmdBar.FocusLost:Connect(function()
-		frame:TweenPosition(UDim2.new(0, -500, 0.5, 0), 1, 0, 1, 1)
-		local args = string.split(cmdBar.Text, " ")
-		if args[1] == Prefix .. "prefix" then
-			if args[2] and args[2] ~= "" and args[2] ~= " " and #args[2] == 1 and args[2] ~= "/" or args[2] ~= "." then
-				Prefix = args[2]
-				notify("Prefix " .. args[2])
-			else
-				notify("Need Second Argument, Cannot Put '/', '.' As Prefix")
-			end
-		end
-		if args[1] == Prefix .. "cmds" or args[1] == Prefix .. "commands" then
-			cmds()
-			notify("Printed CMDS In Console")
-		end
-		if args[1] == Prefix .. "l" or args[1] == Prefix .. "lock" then
-			if args[2] and args[2] ~= "" and args[2] ~= " " then
-				if args[2] == "display" and args[3] and args[3] ~= "" and args[3] ~= " " then
-					lockedplr = findplayer(args[3], true)
-				else
-					lockedplr = findplayer(args[2], false)
-				end
-			end
-		end
-		if args[1] == Prefix .. "ul" or args[1] == "unlock" then
-			lockedplr = nil
-		end
-
-		if args[1] == Prefix .. "s" or args[1] == Prefix .. "silent" or args[1] == Prefix .. "silentaim" then
-			silentaim = true
-			camlock = false
-			notify("SilentAim true")
-		end
-		if args[1] == Prefix .. "c" or args[1] == Prefix .. "cam" or args[1] == Prefix .. "camlock" then
-			silentaim = true
-			camlock = true
-			notify("Camlock true")
-		end
-		if args[1] == Prefix .. "av" or args[1] == Prefix .. "aimvelocity" then
-			if args[2] and tonumber(args[2]) and tonumber(args[2]) <= 10 and tonumber(args[2]) >= 1 then
-				prediction = tonumber(args[2])
-				notify("AimVelocity " .. tonumber(args[2]))
-			end
-		end
-		if args[1] == Prefix .. "esp" then
-			if args[2] and args[2] ~= "" and args[2] ~= " " then
-				if args[2] == "all" then
-					for _, v in next, game.Players:GetPlayers() do
-						if v ~= lp then
-							selp(v)
-						end
-					end
-				else
-					for _, v in next, game.Players:GetPlayers() do
-						if v.Name:lower():sub(1, #args[2]) == args[2]:lower() then
-							selp(v)
-							notify("Esp'd " .. v.Name)
-						end
-					end
-				end
-			end
-		end
-		if args[1] == Prefix .. "unesp" then
-			if args[2] and args[2] ~= "" and args[2] ~= " " then
-				if args[2] == "all" then
-					for _, v in next, game.CoreGui:GetChildren() do
-						for _,z in next, game.Players:GetPlayers() do
-							if v.Name == z.Name then
-								v:Destroy()
-							end
-						end
-					end
-				else
-					for _, v in next, game.CoreGui:GetChildren() do
-						if v.Name:lower():sub(1, #args[2]) == args[2]:lower() then
-							v:Destroy()
-							notify("Unesp'd " .. v.Name)
-						end
-					end
-				end
-			end
-		end
-		if args[1] == Prefix .. "fov" then
-			if args[2] and tonumber(args[2]) and tonumber(args[2]) <= 120 and tonumber(args[2]) >= 10 then
-				notify("FieldOfView " .. tonumber(args[2]))
-				cam.FieldOfView = tonumber(args[2])
-			else
-				notify("FieldOfView 70")
-				cam.FieldOfView = 70
-			end
-		end
-		if args[1] == Prefix .. "as" or args[1] == Prefix .. "astomp" then
-			as = not as
-			notify("Auto-Stomp " .. tostring(as))
-		end
-		if args[1] == Prefix .. "ar" or args[1] == Prefix .. "areset" then
-			ar = not ar
-			notify("Auto-Reset " .. tostring(ar))
-		end
-		if args[1] == Prefix .. "day" then
-			day = true
-			night = false
-		end
-		if args[1] == Prefix .. "night" then
-			day = false
-			night = true
-		end
-		if args[1] == Prefix .. "goto" then
-			if args[2] and args[2] ~= "" and args[2] ~= " " then
-				if args[2] == "display" and args[3] and args[3] ~= "" and args[3] ~= " " then
-					local plr = findplayer(args[3], true)
-					if lp.Character and lp.Character:FindFirstChildOfClass("Humanoid") and plr.Character and plr.Character:FindFirstChildOfClass("Humanoid") then
-						local pt = Instance.new("Part", workspace)
-						game.Debris:AddItem(pt, 0.1)
-						pt.Transparency = 1
-						pt.CanCollide = false
-						pt.Anchored = true
-						pt.CFrame = plr.Character:FindFirstChild("HumanoidRootPart").CFrame
-						local ww = Instance.new("Weld", pt)
-						ww.Part0 = pt
-						ww.Part1 = lp.Character:FindFirstChild("HumanoidRootPart")
-					end
-				else
-					local plr = findplayer(args[2], false)
-					if lp.Character and lp.Character:FindFirstChildOfClass("Humanoid") and plr.Character and plr.Character:FindFirstChildOfClass("Humanoid") then
-						local pt = Instance.new("Part", workspace)
-						game.Debris:AddItem(pt, 0.1)
-						pt.Transparency = 1
-						pt.CanCollide = false
-						pt.Anchored = true
-						pt.CFrame = plr.Character:FindFirstChild("HumanoidRootPart").CFrame
-						local ww = Instance.new("Weld", pt)
-						ww.Part0 = pt
-						ww.Part1 = lp.Character:FindFirstChild("HumanoidRootPart")
-					end
-				end
-			end
-		end
-		if args[1] == Prefix .. "tp" or args[1] == Prefix .. "to" then
-			if args[2] == "1" or args[2] == "f" or args[2] == "food" then
-				local part = Instance.new("Part", workspace)
-				part.Anchored = true
-				part.CanCollide = false
-				part.CFrame = CFrame.new(-2256.73486, 404.5466, -954.518616)
-				part.Transparency = 1
-				game.Debris:AddItem(part, 1)
-
-				local weld = Instance.new("Weld", part)
-				weld.Part0 = part
-
-				weld.Part1 = lp.Character.HumanoidRootPart
-				wait(0.1)
-				weld.Part1 = nil
-			elseif args[2] == "2" or args[2] == "gs" or args[2] == "gunstore" then
-				local part = Instance.new("Part", workspace)
-				part.Anchored = true
-				part.CanCollide = false
-				part.CFrame = CFrame.new(-2489.80322, 388.863983, -1396.18481)
-				part.Transparency = 1
-				game.Debris:AddItem(part, 1)
-
-				local weld = Instance.new("Weld", part)
-				weld.Part0 = part
-
-				weld.Part1 = lp.Character.HumanoidRootPart
-				wait(0.1)
-				weld.Part1 = nil
-			elseif args[2] == "3" or args[2] == "b" or args[2] == "bank" then
-				local part = Instance.new("Part", workspace)
-				part.Anchored = true
-				part.CanCollide = false
-				part.CFrame = CFrame.new(-2334.15527, 402.614258, -946.768127)
-				part.Transparency = 1
-				game.Debris:AddItem(part, 1)
-
-				local weld = Instance.new("Weld", part)
-				weld.Part0 = part
-
-				weld.Part1 = lp.Character.HumanoidRootPart
-				wait(0.1)
-				weld.Part1 = nil
-			elseif args[2] == "4" or args[2] == "rpg" then
-				local part = Instance.new("Part", workspace)
-				part.Anchored = true
-				part.CanCollide = false
-				part.CFrame = CFrame.new(-1820.03491, 354.114227, -935.422668)
-				part.Transparency = 1
-				game.Debris:AddItem(part, 1)
-
-				local weld = Instance.new("Weld", part)
-				weld.Part0 = part
-
-				weld.Part1 = lp.Character.HumanoidRootPart
-				wait(0.1)
-				weld.Part1 = nil
-			elseif args[2] == "5" or args[2] == "ft" or args[2] == "flamethrower" then
-				local part = Instance.new("Part", workspace)
-				part.Anchored = true
-				part.CanCollide = false
-				part.CFrame = CFrame.new(-2077.3833, 434.674774, -747.421631)
-				part.Transparency = 1
-				game.Debris:AddItem(part, 1)
-
-				local weld = Instance.new("Weld", part)
-				weld.Part0 = part
-
-				weld.Part1 = lp.Character.HumanoidRootPart
-				wait(0.1)
-				weld.Part1 = nil
-			end
-		end
-	end)
-
-	game.Players.PlayerRemoving:Connect(function(plrr)
-		for _,z in pairs(game.CoreGui:GetChildren()) do
-			if z:IsA'BillboardGui' then
-				if z.Name == plrr.Name then
-					z:Destroy()
-				end
-			end
-		end
-	end)
-
-	spawn(function()
-		rservice.Stepped:Connect(function()
-			if lockedplr and game.Players:FindFirstChild(lockedplr.Name) then
-				if keyss and silentaim then
-					game.ReplicatedStorage.MainRemote:FireServer("MousePos", lockedplr.Character:FindFirstChild("Head").Position + lockedplr.Character:FindFirstChild("Head").Velocity / prediction + lockedplr.Character:FindFirstChild("Head").RotVelocity / 5, "P")
-				elseif keyss and camlock then
-					cam.CFrame = CFrame.new(cam.CFrame.p, lockedplr.Character:FindFirstChild("Head").Position + lockedplr.Character:FindFirstChild("Head").Velocity / prediction + lockedplr.Character:FindFirstChild("Head").RotVelocity / 5)
-				end
-			else
-				if keyss and silentaim then
-					game.ReplicatedStorage.MainRemote:FireServer("MousePos", plr.Character:FindFirstChild("Head").Position + plr.Character:FindFirstChild("Head").Velocity / prediction + plr.Character:FindFirstChild("Head").RotVelocity / 5, "P")
-				elseif keyss and camlock then
-					cam.CFrame = CFrame.new(cam.CFrame.p, plr.Character:FindFirstChild("Head").Position + plr.Character:FindFirstChild("Head").Velocity / prediction + plr.Character:FindFirstChild("Head").RotVelocity / 5)
-				end
-			end
-		end)
-	end)
-	rservice.RenderStepped:Connect(function()
-		if lp.Character and lp.Character:FindFirstChildOfClass("Humanoid") then
-			if shiftdown then
-				lp.Character:FindFirstChildOfClass("Humanoid").WalkSpeed = 21
-			else
-				lp.Character:FindFirstChildOfClass("Humanoid").WalkSpeed = 16
-			end
-			if ar then
-				if lp.Character and lp.Character:FindFirstChild("I_LOADED_I") and lp.Character:FindFirstChild("I_LOADED_I")['K.O'].Value == true then
-					if lp.Character then
-						lp.Character:Destroy()
-					end
-				end
-			end
-		end
-		for _,z in pairs(game.Players:GetPlayers()) do
-			for _,v in pairs(game.CoreGui:GetChildren()) do
-				if z.Name == v.Name then
-					if z.Character and z.Character:FindFirstChildOfClass("Humanoid") and z.Character:FindFirstChild("Head") then
-						v.Adornee = z.Character:FindFirstChild("Head")
-					else
-						v.Adornee = nil
-					end
-				end
-			end
-		end
-	end)
-
-	game:GetService("Lighting").Changed:Connect(function()
-		if day then
-			game:GetService("Lighting").ClockTime = 14
-		elseif night then
-			game:GetService("Lighting").ClockTime = 0
-		end
-	end)
-	game:GetService("Lighting").GlobalShadows = false
-	game:GetService("Lighting").ShadowSoftness = 0
-	game:GetService("Lighting").Brightness = 1
-	game:GetService("Lighting").FogEnd = 9e9
-	game:GetService("Lighting").FogStart = 9e9
-	lp.PlayerGui.Chat.Frame.ChatChannelParentFrame.Visible = true
-	lp.PlayerGui.Chat.Frame.ChatBarParentFrame.Position = lp.PlayerGui.Chat.Frame.ChatChannelParentFrame.Position + UDim2.new(UDim.new(), lp.PlayerGui.Chat.Frame.ChatChannelParentFrame.Size.Y)
+end
+cmds()
+ 
+local Players = game:GetService("Players")
+local lp = Players.LocalPlayer
+local mouse = lp:GetMouse()
+local uis = game:GetService("UserInputService")
+local rservice = game:GetService("RunService")
+local cam = workspace.CurrentCamera
+local NormalGravity = game.Workspace.Gravity
+ 
+local Raw = getrawmetatable(game)
+local Caller = checkcaller or is_protosmasher_caller or Cer.isCerus
+local CallingScript = getcallingscript or get_calling_script
+local Closure = newcclosure or read_me or function(Func) return Func end
+local CallingMethod = getnamecallmethod or get_namecall_method
+setreadonly(Raw,false)
+local NewIndex = Raw.__newindex;
+Raw.__newindex = Closure(function(self,Property,Value)
+	if Caller() then return NewIndex(self,Property,Value) end
+	if Property == "WalkSpeed" then return 16 end
+	if Property == "JumpPower" then return 50 end 
+	if Property == "HipHeight" then return 0 end 
+	if self == workspace and Property == "Gravity" then return NormalGravity end
+	if Property == "CFrame" and self:IsDescendantOf(lp.Character) then return end 
+	return NewIndex(self,Property,Value)
 end)
-UICorner_14.Parent = AimbotV2withabitsilentaim
-
-SoftVortex12.Name = "SoftVortex 1.2"
-SoftVortex12.Parent = Main
-SoftVortex12.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-SoftVortex12.BorderColor3 = Color3.fromRGB(44, 44, 44)
-SoftVortex12.Position = UDim2.new(0.541000009, 0, 0.402999997, 0)
-SoftVortex12.Size = UDim2.new(0, 185, 0, 35)
-SoftVortex12.Font = Enum.Font.Creepster
-SoftVortex12.Text = "SoftVortex 1.2"
-SoftVortex12.TextColor3 = Color3.fromRGB(255, 213, 0)
-SoftVortex12.TextSize = 34.000
-
-UICorner_15.Parent = SoftVortex12
-
-AimbotV2.Name = "Aimbot V2"
-AimbotV2.Parent = Main
-AimbotV2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-AimbotV2.BorderColor3 = Color3.fromRGB(44, 44, 44)
-AimbotV2.Position = UDim2.new(0.536624014, 0, 0.119331762, 0)
-AimbotV2.Size = UDim2.new(0, 185, 0, 35)
-AimbotV2.Font = Enum.Font.Creepster
-AimbotV2.Text = "Aimbot V2"
-AimbotV2.TextColor3 = Color3.fromRGB(255, 213, 0)
-AimbotV2.TextSize = 34.000
-
-UICorner_16.Parent = AimbotV2
-
-Aimbot.Name = "Aimbot"
-Aimbot.Parent = Main
-Aimbot.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-Aimbot.BorderColor3 = Color3.fromRGB(44, 44, 44)
-Aimbot.Position = UDim2.new(0.05949983, 0, 0.119331762, 0)
-Aimbot.Size = UDim2.new(0, 185, 0, 35)
-Aimbot.Font = Enum.Font.Creepster
-Aimbot.Text = "Aimbot"
-Aimbot.TextColor3 = Color3.fromRGB(255, 213, 0)
-Aimbot.TextSize = 34.000
-
-UICorner_17.Parent = Aimbot
-
-Visuals.Name = "Visuals"
-Visuals.Parent = Frame
-Visuals.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-Visuals.BorderColor3 = Color3.fromRGB(29, 29, 29)
-Visuals.Position = UDim2.new(0.229865775, 0, 0, 0)
-Visuals.Size = UDim2.new(0, 459, 0, 419)
-Visuals.Visible = false
-
-UICorner_18.Parent = Visuals
-
-Esp.Name = "Esp"
-Esp.Parent = Visuals
-Esp.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-Esp.BorderColor3 = Color3.fromRGB(44, 44, 44)
-Esp.Position = UDim2.new(0.287581682, 0, 0.267303109, 0)
-Esp.Size = UDim2.new(0, 175, 0, 50)
-Esp.Font = Enum.Font.Creepster
-Esp.Text = "Esp"
-Esp.TextColor3 = Color3.fromRGB(255, 213, 0)
-Esp.TextSize = 34.000
-
-UICorner_19.Parent = Esp
-
-Clickitonlyonce.Name = "Click it only once"
-Clickitonlyonce.Parent = Visuals
-Clickitonlyonce.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-Clickitonlyonce.BorderColor3 = Color3.fromRGB(29, 29, 29)
-Clickitonlyonce.Position = UDim2.new(0.145969495, 0, 0.140776798, 0)
-Clickitonlyonce.Size = UDim2.new(0, 292, 0, 54)
-Clickitonlyonce.Font = Enum.Font.Creepster
-Clickitonlyonce.Text = "Click it only once"
-Clickitonlyonce.TextColor3 = Color3.fromRGB(255, 213, 0)
-Clickitonlyonce.TextSize = 24.000
-
-ESPGUITOGGLES.Name = "ESPGUITOGGLES"
-ESPGUITOGGLES.Parent = Visuals
-ESPGUITOGGLES.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-ESPGUITOGGLES.BorderColor3 = Color3.fromRGB(44, 44, 44)
-ESPGUITOGGLES.Position = UDim2.new(0.287581712, 0, 0.568019092, 0)
-ESPGUITOGGLES.Size = UDim2.new(0, 175, 0, 50)
-ESPGUITOGGLES.Font = Enum.Font.Creepster
-ESPGUITOGGLES.Text = "Esp"
-ESPGUITOGGLES.TextColor3 = Color3.fromRGB(255, 213, 0)
-ESPGUITOGGLES.TextSize = 34.000
-
-UICorner_20.Parent = ESPGUITOGGLES
-
-EspGuiwithToggles.Name = "Esp Gui with Toggles"
-EspGuiwithToggles.Parent = Visuals
-EspGuiwithToggles.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-EspGuiwithToggles.BorderColor3 = Color3.fromRGB(29, 29, 29)
-EspGuiwithToggles.Position = UDim2.new(0.15904139, 0, 0.486873507, 0)
-EspGuiwithToggles.Size = UDim2.new(0, 292, 0, 29)
-EspGuiwithToggles.Font = Enum.Font.Creepster
-EspGuiwithToggles.Text = "Esp Gui with Toggles"
-EspGuiwithToggles.TextColor3 = Color3.fromRGB(255, 213, 0)
-EspGuiwithToggles.TextSize = 30.000
-
-Player.Name = "Player"
-Player.Parent = Frame
-Player.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-Player.BorderColor3 = Color3.fromRGB(29, 29, 29)
-Player.Position = UDim2.new(0.229865775, 0, 0, 0)
-Player.Size = UDim2.new(0, 459, 0, 419)
-Player.Visible = false
-
-UICorner_21.Parent = Player
-
-KorbloxLeftLeg.Name = "Korblox Left Leg"
-KorbloxLeftLeg.Parent = Player
-KorbloxLeftLeg.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-KorbloxLeftLeg.BorderColor3 = Color3.fromRGB(44, 44, 44)
-KorbloxLeftLeg.Position = UDim2.new(0.0638571382, 0, 0.653937936, 0)
-KorbloxLeftLeg.Size = UDim2.new(0, 402, 0, 35)
-KorbloxLeftLeg.Font = Enum.Font.Creepster
-KorbloxLeftLeg.Text = "Korblox Left Leg"
-KorbloxLeftLeg.TextColor3 = Color3.fromRGB(255, 213, 0)
-KorbloxLeftLeg.TextSize = 33.000
-
-UICorner_22.Parent = KorbloxLeftLeg
-
-KorbloxRightLeg.Name = "Korblox Right Leg"
-KorbloxRightLeg.Parent = Player
-KorbloxRightLeg.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-KorbloxRightLeg.BorderColor3 = Color3.fromRGB(44, 44, 44)
-KorbloxRightLeg.Position = UDim2.new(0.0638571382, 0, 0.78758949, 0)
-KorbloxRightLeg.Size = UDim2.new(0, 402, 0, 35)
-KorbloxRightLeg.Font = Enum.Font.Creepster
-KorbloxRightLeg.Text = "Korblox Right Leg"
-KorbloxRightLeg.TextColor3 = Color3.fromRGB(255, 213, 0)
-KorbloxRightLeg.TextSize = 29.000
-KorbloxRightLeg.TextWrapped = true
-
-UICorner_23.Parent = KorbloxRightLeg
-
-AnimationCombos.Name = "Animation Combos"
-AnimationCombos.Parent = Player
-AnimationCombos.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-AnimationCombos.BorderColor3 = Color3.fromRGB(44, 44, 44)
-AnimationCombos.Position = UDim2.new(0.0616784878, 0, 0.372315049, 0)
-AnimationCombos.Size = UDim2.new(0, 402, 0, 35)
-AnimationCombos.Font = Enum.Font.Creepster
-AnimationCombos.Text = "Animation Combos"
-AnimationCombos.TextColor3 = Color3.fromRGB(255, 213, 0)
-AnimationCombos.TextSize = 26.000
-
-UICorner_24.Parent = AnimationCombos
-
-Animations.Name = "Animations"
-Animations.Parent = Player
-Animations.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-Animations.BorderColor3 = Color3.fromRGB(44, 44, 44)
-Animations.Position = UDim2.new(0.0638571382, 0, 0.513126552, 0)
-Animations.Size = UDim2.new(0, 402, 0, 35)
-Animations.Font = Enum.Font.Creepster
-Animations.Text = "Animations"
-Animations.TextColor3 = Color3.fromRGB(255, 213, 0)
-Animations.TextSize = 34.000
-
-UICorner_25.Parent = Animations
-
-FaceChanger.Name = "Face Changer"
-FaceChanger.Parent = Player
-FaceChanger.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-FaceChanger.BorderColor3 = Color3.fromRGB(44, 44, 44)
-FaceChanger.Position = UDim2.new(0.0638571382, 0, 0.231503576, 0)
-FaceChanger.Size = UDim2.new(0, 402, 0, 35)
-FaceChanger.Font = Enum.Font.Creepster
-FaceChanger.Text = "Face Changer"
-FaceChanger.TextColor3 = Color3.fromRGB(255, 213, 0)
-FaceChanger.TextSize = 34.000
-
-UICorner_26.Parent = FaceChanger
-
-Headless.Name = "Headless"
-Headless.Parent = Player
-Headless.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-Headless.BorderColor3 = Color3.fromRGB(44, 44, 44)
-Headless.Position = UDim2.new(0.0638571382, 0, 0.0954653919, 0)
-Headless.Size = UDim2.new(0, 402, 0, 35)
-Headless.Font = Enum.Font.Creepster
-Headless.Text = "Headless"
-Headless.TextColor3 = Color3.fromRGB(255, 213, 0)
-Headless.TextSize = 34.000
-
-UICorner_27.Parent = Headless
-
-Misc.Name = "Misc"
-Misc.Parent = Frame
-Misc.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-Misc.BorderColor3 = Color3.fromRGB(29, 29, 29)
-Misc.Position = UDim2.new(0.229865775, 0, 0, 0)
-Misc.Size = UDim2.new(0, 459, 0, 419)
-Misc.Visible = false
-
-UICorner_28.Parent = Misc
-
-PANICBUTTON.Name = "PANICBUTTON"
-PANICBUTTON.Parent = Misc
-PANICBUTTON.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-PANICBUTTON.BorderColor3 = Color3.fromRGB(44, 44, 44)
-PANICBUTTON.Position = UDim2.new(0.0594998375, 0, 0.821002364, 0)
-PANICBUTTON.Size = UDim2.new(0, 404, 0, 35)
-PANICBUTTON.Font = Enum.Font.Creepster
-PANICBUTTON.Text = "PANICBUTTON"
-PANICBUTTON.TextColor3 = Color3.fromRGB(255, 0, 0)
-PANICBUTTON.TextSize = 34.000
-
-UICorner_29.Parent = PANICBUTTON
-
-infyield.Name = "inf yield"
-infyield.Parent = Misc
-infyield.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-infyield.BorderColor3 = Color3.fromRGB(44, 44, 44)
-infyield.Position = UDim2.new(0.0594998375, 0, 0.687350869, 0)
-infyield.Size = UDim2.new(0, 404, 0, 35)
-infyield.Font = Enum.Font.Creepster
-infyield.Text = "inf yield"
-infyield.TextColor3 = Color3.fromRGB(255, 213, 0)
-infyield.TextSize = 34.000
-
-UICorner_30.Parent = infyield
-
-FaceChanger_2.Name = "Face Changer"
-FaceChanger_2.Parent = Misc
-FaceChanger_2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-FaceChanger_2.BorderColor3 = Color3.fromRGB(44, 44, 44)
-FaceChanger_2.Position = UDim2.new(0.0594998375, 0, 0.551312685, 0)
-FaceChanger_2.Size = UDim2.new(0, 404, 0, 35)
-FaceChanger_2.Font = Enum.Font.Creepster
-FaceChanger_2.Text = "Face Changer"
-FaceChanger_2.TextColor3 = Color3.fromRGB(255, 213, 0)
-FaceChanger_2.TextSize = 34.000
-
-UICorner_31.Parent = FaceChanger_2
-
-Fov120.Name = "Fov 120"
-Fov120.Parent = Misc
-Fov120.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-Fov120.BorderColor3 = Color3.fromRGB(44, 44, 44)
-Fov120.Position = UDim2.new(0.0594998375, 0, 0.403341293, 0)
-Fov120.Size = UDim2.new(0, 185, 0, 35)
-Fov120.Font = Enum.Font.Creepster
-Fov120.Text = "Fov 120"
-Fov120.TextColor3 = Color3.fromRGB(255, 213, 0)
-Fov120.TextSize = 34.000
-
-UICorner_32.Parent = Fov120
-
-Fov140.Name = "Fov 140"
-Fov140.Parent = Misc
-Fov140.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-Fov140.BorderColor3 = Color3.fromRGB(44, 44, 44)
-Fov140.Position = UDim2.new(0.540981293, 0, 0.403341293, 0)
-Fov140.Size = UDim2.new(0, 183, 0, 35)
-Fov140.Font = Enum.Font.Creepster
-Fov140.Text = "Fov 140"
-Fov140.TextColor3 = Color3.fromRGB(255, 213, 0)
-Fov140.TextSize = 34.000
-
-UICorner_33.Parent = Fov140
-
-DefaultFov.Name = "Default Fov"
-DefaultFov.Parent = Misc
-DefaultFov.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-DefaultFov.BorderColor3 = Color3.fromRGB(44, 44, 44)
-DefaultFov.Position = UDim2.new(0.0594998375, 0, 0.26252985, 0)
-DefaultFov.Size = UDim2.new(0, 185, 0, 35)
-DefaultFov.Font = Enum.Font.Creepster
-DefaultFov.Text = "Default Fov"
-DefaultFov.TextColor3 = Color3.fromRGB(255, 213, 0)
-DefaultFov.TextSize = 26.000
-
-UICorner_34.Parent = DefaultFov
-
-Fov90.Name = "Fov 90"
-Fov90.Parent = Misc
-Fov90.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-Fov90.BorderColor3 = Color3.fromRGB(44, 44, 44)
-Fov90.Position = UDim2.new(0.536624014, 0, 0.26252985, 0)
-Fov90.Size = UDim2.new(0, 185, 0, 35)
-Fov90.Font = Enum.Font.Creepster
-Fov90.Text = "Fov90"
-Fov90.TextColor3 = Color3.fromRGB(255, 213, 0)
-Fov90.TextSize = 34.000
-
-UICorner_35.Parent = Fov90
-
-FovSetter_2.Name = "Fov Setter"
-FovSetter_2.Parent = Misc
-FovSetter_2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-FovSetter_2.BorderColor3 = Color3.fromRGB(44, 44, 44)
-FovSetter_2.Position = UDim2.new(0.536624014, 0, 0.119331762, 0)
-FovSetter_2.Size = UDim2.new(0, 185, 0, 35)
-FovSetter_2.Font = Enum.Font.Creepster
-FovSetter_2.Text = "Fov Setter"
-FovSetter_2.TextColor3 = Color3.fromRGB(255, 213, 0)
-FovSetter_2.TextSize = 34.000
-
-UICorner_36.Parent = FovSetter_2
-
-FpsCapper.Name = "Fps Capper"
-FpsCapper.Parent = Misc
-FpsCapper.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-FpsCapper.BorderColor3 = Color3.fromRGB(44, 44, 44)
-FpsCapper.Position = UDim2.new(0.05949983, 0, 0.119331762, 0)
-FpsCapper.Size = UDim2.new(0, 185, 0, 35)
-FpsCapper.Font = Enum.Font.Creepster
-FpsCapper.Text = "Fps Capper"
-FpsCapper.TextColor3 = Color3.fromRGB(255, 213, 0)
-FpsCapper.TextSize = 34.000
-
-UICorner_37.Parent = FpsCapper
-
-Credits.Name = "Credits"
-Credits.Parent = Frame
-Credits.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-Credits.BorderColor3 = Color3.fromRGB(29, 29, 29)
-Credits.Position = UDim2.new(0.229865775, 0, 0, 0)
-Credits.Size = UDim2.new(0, 459, 0, 419)
-Credits.Visible = false
-
-UICorner_38.Parent = Credits
-
-TextLabel_2.Parent = Credits
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-TextLabel_2.BorderColor3 = Color3.fromRGB(29, 29, 29)
-TextLabel_2.Position = UDim2.new(0.359879315, 0, -3.46768647e-05, 0)
-TextLabel_2.Size = UDim2.new(0, 128, 0, 31)
-TextLabel_2.Font = Enum.Font.Creepster
-TextLabel_2.Text = "Subscribe to SoftVortex On Youtube"
-TextLabel_2.TextColor3 = Color3.fromRGB(255, 213, 0)
-TextLabel_2.TextSize = 24.000
-
-TextLabel_3.Parent = Credits
-TextLabel_3.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-TextLabel_3.BorderColor3 = Color3.fromRGB(29, 29, 29)
-TextLabel_3.Position = UDim2.new(0.102798671, 0, 0.140776753, 0)
-TextLabel_3.Size = UDim2.new(0, 128, 0, 31)
-TextLabel_3.Font = Enum.Font.Creepster
-TextLabel_3.Text = "Owner: Airsoft#0001"
-TextLabel_3.TextColor3 = Color3.fromRGB(255, 213, 0)
-TextLabel_3.TextSize = 31.000
-
-TextLabel_4.Parent = Credits
-TextLabel_4.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-TextLabel_4.BorderColor3 = Color3.fromRGB(29, 29, 29)
-TextLabel_4.Position = UDim2.new(0.0483323932, 0, 0.212410495, 0)
-TextLabel_4.Size = UDim2.new(0, 160, 0, 33)
-TextLabel_4.Font = Enum.Font.Creepster
-TextLabel_4.Text = "Helpers: G_87#5392"
-TextLabel_4.TextColor3 = Color3.fromRGB(255, 213, 0)
-TextLabel_4.TextSize = 31.000
-
-discordinvitelink.Name = "discordinvitelink"
-discordinvitelink.Parent = Credits
-discordinvitelink.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-discordinvitelink.BorderColor3 = Color3.fromRGB(44, 44, 44)
-discordinvitelink.Position = UDim2.new(0.147322118, 0, 0.653937936, 0)
-discordinvitelink.Size = UDim2.new(0, 323, 0, 78)
-discordinvitelink.Font = Enum.Font.Creepster
-discordinvitelink.Text = "discord link"
-discordinvitelink.TextColor3 = Color3.fromRGB(0, 123, 255)
-discordinvitelink.TextSize = 28.000
-
-UICorner_39.Parent = discordinvitelink
-
-GA.Name = "GA"
-GA.Parent = Frame
-GA.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-GA.BorderColor3 = Color3.fromRGB(29, 29, 29)
-GA.Position = UDim2.new(0.229865775, 0, 0, 0)
-GA.Size = UDim2.new(0, 459, 0, 419)
-GA.Visible = false
-
-UICorner_40.Parent = GA
-
-Aimbot_2.Name = "Aimbot"
-Aimbot_2.Parent = GA
-Aimbot_2.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-Aimbot_2.BorderColor3 = Color3.fromRGB(44, 44, 44)
-Aimbot_2.Position = UDim2.new(0.225077182, 0, 0.429594278, 0)
-Aimbot_2.Size = UDim2.new(0, 198, 0, 45)
-Aimbot_2.Font = Enum.Font.Creepster
-Aimbot_2.Text = "GA$"
-Aimbot_2.TextColor3 = Color3.fromRGB(255, 213, 0)
-Aimbot_2.TextSize = 34.000
-
-UICorner_41.Parent = Aimbot_2
-
-CreditsForGA.Name = "Credits For GA$"
-CreditsForGA.Parent = GA
-CreditsForGA.BackgroundColor3 = Color3.fromRGB(44, 44, 44)
-CreditsForGA.BorderColor3 = Color3.fromRGB(44, 44, 44)
-CreditsForGA.Position = UDim2.new(0.238149062, 0, 0.324582338, 0)
-CreditsForGA.Size = UDim2.new(0, 185, 0, 35)
-CreditsForGA.Font = Enum.Font.Creepster
-CreditsForGA.Text = "Credits For GA$"
-CreditsForGA.TextColor3 = Color3.fromRGB(255, 213, 0)
-CreditsForGA.TextSize = 34.000
-
-UICorner_42.Parent = CreditsForGA
-
-discordinvitelink_2.Name = "discordinvitelink"
-discordinvitelink_2.Parent = Frame
-discordinvitelink_2.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-discordinvitelink_2.BorderColor3 = Color3.fromRGB(29, 29, 29)
-discordinvitelink_2.Position = UDim2.new(0.0100671137, 0, 0.821002364, 0)
-discordinvitelink_2.Size = UDim2.new(0, 134, 0, 35)
-discordinvitelink_2.Font = Enum.Font.Creepster
-discordinvitelink_2.Text = "discord link"
-discordinvitelink_2.TextColor3 = Color3.fromRGB(0, 123, 255)
-discordinvitelink_2.TextSize = 28.000
-
-UICorner_43.Parent = discordinvitelink_2
-
-UICorner_44.Parent = discordinvitelink_2
-
-GAButton.Name = "GA$Button"
-GAButton.Parent = Frame
-GAButton.BackgroundColor3 = Color3.fromRGB(29, 29, 29)
-GAButton.BorderColor3 = Color3.fromRGB(29, 29, 29)
-GAButton.Position = UDim2.new(0.00503355684, 0, 0.706443906, 0)
-GAButton.Size = UDim2.new(0, 134, 0, 35)
-GAButton.Font = Enum.Font.Creepster
-GAButton.Text = "GA$"
-GAButton.TextColor3 = Color3.fromRGB(255, 213, 0)
-GAButton.TextSize = 34.000
-
-UICorner_45.Parent = GAButton
-
--- Scripts:
-
-local function WIGY_fake_script() -- MainButton.LocalScript 
-	local script = Instance.new('LocalScript', MainButton)
-
-	script.Parent.MouseButton1Down:Connect(function()
-		script.Parent.Parent.Main.Visible = true
-		script.Parent.Parent.GA.Visible = false
-		script.Parent.Parent.Credits.Visible = false
-		script.Parent.Parent.Misc.Visible = false
-		script.Parent.Parent.Visuals.Visible = false
-		script.Parent.Parent.Player.Visible = false
-	end)
-end
-coroutine.wrap(WIGY_fake_script)()
-local function HYJOA_fake_script() -- VisualsButton.LocalScript 
-	local script = Instance.new('LocalScript', VisualsButton)
-
-	script.Parent.MouseButton1Down:Connect(function()
-		script.Parent.Parent.Main.Visible = false
-		script.Parent.Parent.GA.Visible = false
-		script.Parent.Parent.Credits.Visible = false
-		script.Parent.Parent.Misc.Visible = false
-		script.Parent.Parent.Visuals.Visible = true
-		script.Parent.Parent.Player.Visible = false
-	end)
-end
-coroutine.wrap(HYJOA_fake_script)()
-local function QSPOHIA_fake_script() -- PlayerButton.LocalScript 
-	local script = Instance.new('LocalScript', PlayerButton)
-
-	script.Parent.MouseButton1Down:Connect(function()
-		script.Parent.Parent.Main.Visible = false
-		script.Parent.Parent.GA.Visible = false
-		script.Parent.Parent.Credits.Visible = false
-		script.Parent.Parent.Misc.Visible = false
-		script.Parent.Parent.Visuals.Visible = false
-		script.Parent.Parent.Player.Visible = true
-	end)
-end
-coroutine.wrap(QSPOHIA_fake_script)()
-local function WFVOJSN_fake_script() -- MiscButton.LocalScript 
-	local script = Instance.new('LocalScript', MiscButton)
-
-	script.Parent.MouseButton1Down:Connect(function()
-		script.Parent.Parent.Main.Visible = false
-		script.Parent.Parent.GA.Visible = false
-		script.Parent.Parent.Credits.Visible = false
-		script.Parent.Parent.Misc.Visible = true
-		script.Parent.Parent.Visuals.Visible = false
-		script.Parent.Parent.Player.Visible = false
-	end)
-end
-coroutine.wrap(WFVOJSN_fake_script)()
-local function HMTYQ_fake_script() -- CreditsButton.LocalScript 
-	local script = Instance.new('LocalScript', CreditsButton)
-
-	script.Parent.MouseButton1Down:Connect(function()
-		script.Parent.Parent.Main.Visible = false
-		script.Parent.Parent.GA.Visible = false
-		script.Parent.Parent.Credits.Visible = true
-		script.Parent.Parent.Misc.Visible = false
-		script.Parent.Parent.Visuals.Visible = false
-		script.Parent.Parent.Player.Visible = false
-	end)
-end
-coroutine.wrap(HMTYQ_fake_script)()
-local function UUTWIC_fake_script() -- Frame.drag 
-	local script = Instance.new('LocalScript', Frame)
-
-	local UIS = game:GetService('UserInputService')
-	local frame = script.Parent
-	local dragToggle = nil
-	local dragSpeed = 0.20
-	local dragStart = nil
-	local startPos = nil
-	
-	local function updateInput(input)
-		local delta = input.Position - dragStart
-		local position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X,
-			startPos.Y.Scale, startPos.Y.Offset + delta.Y)
-		game:GetService('TweenService'):Create(frame, TweenInfo.new(dragSpeed), {Position = position}):Play()
+local Namecall = Raw.__namecall;
+Raw.__namecall = Closure(function(self,...)
+local Args = {...}
+	if Caller() then 
+		if CallingMethod() == "FindFirstChild" and Args[1] == "HumanoidRootPart" then 
+			Args[1] = "HumanoidRootPart" 
+			return Namecall(self,unpack(Args))
+		end
+		return Namecall(self,...) 
+	end 
+	if CallingMethod() == "Destroy" or CallingMethod() == "Kick" then 
+		if self == lp then return wait(9e9) end
+		if tostring(self) == 'BodyGyro' or tostring(self) == 'BodyVelocity' then return wait(9e9) end 
 	end
-	
-	frame.InputBegan:Connect(function(input)
-		if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then 
-			dragToggle = true
-			dragStart = input.Position
-			startPos = frame.Position
-			input.Changed:Connect(function()
-				if input.UserInputState == Enum.UserInputState.End then
-					dragToggle = false
-				end
-			end)
+	if CallingMethod() == "BreakJoints" and self == lp.Character then return wait(9e9) end
+	return Namecall(self,...)
+end)
+setreadonly(Raw,true)
+ 
+ 
+function getClosestToMouse()
+	local closestdis = math.huge
+	local closestplr
+	for i,v in pairs(Players:GetPlayers()) do
+		if v:DistanceFromCharacter(mouse.Hit.p) < closestdis and v ~= lp and v.Character and v.Character:FindFirstChild("Head") then
+			closestplr = v
+			closestdis = v:DistanceFromCharacter(mouse.Hit.p)
 		end
-	end)
-	
-	UIS.InputChanged:Connect(function(input)
-		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
-			if dragToggle then
-				updateInput(input)
-			end
-		end
-	end)
+	end
+	if not closestplr then return lp end
+	return closestplr
 end
-coroutine.wrap(UUTWIC_fake_script)()
-local function HUXSQ_fake_script() -- GAButton.LocalScript 
-	local script = Instance.new('LocalScript', GAButton)
-
-	script.Parent.MouseButton1Down:Connect(function()
-		script.Parent.Parent.Main.Visible = false
-		script.Parent.Parent.GA.Visible = true
-		script.Parent.Parent.Credits.Visible = false
-		script.Parent.Parent.Misc.Visible = false
-		script.Parent.Parent.Visuals.Visible = false
-		script.Parent.Parent.Player.Visible = false
-	end)
+ 
+function selp(player)
+    local bbg = Instance.new("BillboardGui",game.CoreGui)
+    bbg.Name = player.Name
+    bbg.AlwaysOnTop = true
+    bbg.Enabled = true
+    bbg.Size = UDim2.new(1,0,1,0)
+    bbg.StudsOffset = Vector3.new(0,2,0)
+    local tlabel = Instance.new("TextLabel",bbg)
+    tlabel.BackgroundTransparency = 1
+    tlabel.Size = UDim2.new(1,0,1,0)
+    tlabel.Text = player.Name
+    tlabel.TextColor3 = Color3.new(255,125,0)
 end
-coroutine.wrap(HUXSQ_fake_script)()
-local function XSYCFL_fake_script() -- Frame.Keybind 
-	local script = Instance.new('LocalScript', Frame)
-
-	local frame = script.Parent.Parent.Frame
-	local hotkey = Enum.KeyCode.V
-	local UIS = game:GetService("UserInputService")
-	local open = false
-	
-	UIS.InputBegan:Connect(function(key)
-		if key.keyCode == hotkey then
-			if UIS:GetFocusedTextBox() == nil then
-				if open == false then
-					open = true
-					frame.Visible = open
-				elseif open == true then
-					open = false
-					frame.Visible = open
-				end
-			end
-		end
-	end)
+ 
+function findplayer(args, tf)
+    local Targoot
+    if tf then
+        for _,v in next, game.Players:GetPlayers() do
+            if v.DisplayName:lower():sub(1,#args) == args:lower() then
+                Targoot = v
+            end
+        end
+    else
+        for _,v in next, game.Players:GetPlayers() do
+            if v.Name:lower():sub(1,#args) == args:lower() then
+                Targoot = v
+            end
+        end
+    end
+    return Targoot
 end
-coroutine.wrap(XSYCFL_fake_script)()
+ 
+local Prefix = "l"
+ 
+local screengui = Instance.new("ScreenGui",game.CoreGui)
+local frame = Instance.new("Frame",screengui)
+local cmdBar = Instance.new("TextBox",frame)
+frame.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+frame.BorderSizePixel = 2
+frame.Position = UDim2.new(0, -4000, 0, mouse.ViewSizeY / 2)
+frame.Size = UDim2.new(0, 30, 0, 20)
+cmdBar.BackgroundTransparency = 1.000
+cmdBar.Size = UDim2.new(0, 20, 0, 20)
+cmdBar.TextColor3 = Color3.fromRGB(255, 255, 255)
+cmdBar.TextSize = 16
+cmdBar.TextXAlignment = Enum.TextXAlignment.Left
+ 
+function notify(text)
+    local screengui = Instance.new("ScreenGui", game.CoreGui)
+    local NOTIF = Instance.new("TextLabel", screengui)
+    NOTIF.Position = UDim2.new(0, -500, 0.5, 0)
+    NOTIF:TweenPosition(UDim2.new(0, 0, 0.5, 0), "Out", "Linear", 0.2, false)
+    NOTIF.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+    NOTIF.BorderColor3 = Color3.fromRGB(255, 255, 255)
+    NOTIF.Size = UDim2.new(1, 0, 0, 20)
+    NOTIF.Font = Enum.Font.SourceSans
+    NOTIF.Text = text
+    NOTIF.TextColor3 = Color3.fromRGB(255, 255, 255)
+    NOTIF.TextSize = 25
+    game.Debris:AddItem(screengui, 2.3)
+end
+ 
+local akey = Enum.KeyCode.Q
+local keyss = false
+local silentaim = false
+local camlock = true
+local prediction = 5
+local shiftdown = false
+local altering = false
+local recording = false
+local as = false
+local ar = false
+local day = false
+local night = false
+ 
+local sg = Instance.new("ScreenGui",game.CoreGui)
+local button = Instance.new("TextButton",sg)
+button.Position = UDim2.new(1,-200,0.5,-25)
+button.Text = tostring(akey)
+button.Size = UDim2.new(0,50,0,50)
+ 
+uis.InputBegan:Connect(function(key)
+    if key.KeyCode == Enum.KeyCode.LeftShift then
+        shiftdown = true
+    end
+    if key.KeyCode == Enum.KeyCode.LeftAlt then
+        altering = true
+    end
+    if key.KeyCode == Enum.KeyCode.R then
+        if lp.Character and lp.Character:FindFirstChildOfClass("Tool") then
+            game.ReplicatedStorage.MainRemote:FireServer("Reload")
+        end
+    end
+    if recording == false and key ~= nil then
+        if key.KeyCode == akey then
+            keyss = true
+            plr = getClosestToMouse()
+        end
+    end
+    if key ~= nil and recording then
+        akey = key.KeyCode
+        button.Text = tostring(key.KeyCode)
+        recording = false
+    end
+end)
+uis.InputEnded:Connect(function(key)
+    if key.KeyCode == Enum.KeyCode.LeftShift then
+        shiftdown = false
+    end
+    if key.KeyCode == Enum.KeyCode.LeftAlt then
+        altering = false
+    end
+    if recording == false and key ~= nil then
+        if key.KeyCode == akey then
+            keyss = false
+            plr = nil
+        end
+    end
+end)
+ 
+button.MouseButton1Click:Connect(function()
+    recording = true
+    button.Text = "..."
+end)
+ 
+mouse.KeyDown:Connect(function(key)
+    if key == "p" then
+        if lp.Character then
+            lp.Character:Destroy()
+        end
+    end
+    if key == Prefix then
+        frame:TweenPosition(UDim2.new(0, 0, 0.5, 0), 1, 0, 0.3, 1)
+    	cmdBar:CaptureFocus()
+    end
+end)
+ 
+mouse.Button1Down:Connect(function()
+    if altering then
+        if lp.Character and lp.Character:FindFirstChild("HumanoidRootPart") then
+            local partt = Instance.new("Part", lp.Character)
+            partt.Anchored = true
+            partt.CanCollide = false
+            partt.Size = Vector3.new(2,2,1)
+            partt.Transparency = 1
+            partt.CFrame = mouse.Hit + Vector3.new(0,3.5,0)
+            game.Debris:AddItem(partt, 0.05)
+            local weld = Instance.new("Weld", partt)
+            weld.Part0 = partt
+            weld.Part1 = lp.Character:FindFirstChild("HumanoidRootPart")
+        end
+    end
+end)
+ 
+cmdBar.FocusLost:Connect(function()
+    frame:TweenPosition(UDim2.new(0, -500, 0.5, 0), 1, 0, 1, 1)
+    local args = string.split(cmdBar.Text, " ")
+    if args[1] == Prefix .. "prefix" then
+        if args[2] and args[2] ~= "" and args[2] ~= " " and #args[2] == 1 and args[2] ~= "/" or args[2] ~= "." then
+            Prefix = args[2]
+            notify("Prefix " .. args[2])
+        else
+            notify("Need Second Argument, Cannot Put '/', '.' As Prefix")
+        end
+    end
+    if args[1] == Prefix .. "cmds" or args[1] == Prefix .. "commands" then
+        cmds()
+        notify("Printed CMDS In Console")
+    end
+    if args[1] == Prefix .. "l" or args[1] == Prefix .. "lock" then
+        if args[2] and args[2] ~= "" and args[2] ~= " " then
+            if args[2] == "display" and args[3] and args[3] ~= "" and args[3] ~= " " then
+                lockedplr = findplayer(args[3], true)
+            else
+                lockedplr = findplayer(args[2], false)
+            end
+        end
+    end
+    if args[1] == Prefix .. "ul" or args[1] == "unlock" then
+        lockedplr = nil
+    end
+ 
+    if args[1] == Prefix .. "s" or args[1] == Prefix .. "silent" or args[1] == Prefix .. "silentaim" then
+        silentaim = true
+        camlock = false
+        notify("SilentAim true")
+    end
+    if args[1] == Prefix .. "c" or args[1] == Prefix .. "cam" or args[1] == Prefix .. "camlock" then
+        silentaim = false
+        camlock = true
+        notify("Camlock true")
+    end
+    if args[1] == Prefix .. "av" or args[1] == Prefix .. "aimvelocity" then
+        if args[2] and tonumber(args[2]) and tonumber(args[2]) <= 10 and tonumber(args[2]) >= 1 then
+            prediction = tonumber(args[2])
+            notify("AimVelocity " .. tonumber(args[2]))
+        end
+    end
+    if args[1] == Prefix .. "esp" then
+        if args[2] and args[2] ~= "" and args[2] ~= " " then
+            if args[2] == "all" then
+                for _, v in next, game.Players:GetPlayers() do
+                    if v ~= lp then
+                        selp(v)
+                    end
+                end
+            else
+                for _, v in next, game.Players:GetPlayers() do
+                    if v.Name:lower():sub(1, #args[2]) == args[2]:lower() then
+                        selp(v)
+                        notify("Esp'd " .. v.Name)
+                    end
+                end
+            end
+        end
+    end
+    if args[1] == Prefix .. "unesp" then
+        if args[2] and args[2] ~= "" and args[2] ~= " " then
+            if args[2] == "all" then
+                for _, v in next, game.CoreGui:GetChildren() do
+                    for _,z in next, game.Players:GetPlayers() do
+                        if v.Name == z.Name then
+                            v:Destroy()
+                        end
+                    end
+                end
+            else
+                for _, v in next, game.CoreGui:GetChildren() do
+                    if v.Name:lower():sub(1, #args[2]) == args[2]:lower() then
+                        v:Destroy()
+                        notify("Unesp'd " .. v.Name)
+                    end
+                end
+            end
+        end
+    end
+    if args[1] == Prefix .. "fov" then
+        if args[2] and tonumber(args[2]) and tonumber(args[2]) <= 120 and tonumber(args[2]) >= 10 then
+            notify("FieldOfView " .. tonumber(args[2]))
+            cam.FieldOfView = tonumber(args[2])
+        else
+            notify("FieldOfView 70")
+            cam.FieldOfView = 70
+        end
+    end
+    if args[1] == Prefix .. "as" or args[1] == Prefix .. "astomp" then
+        as = not as
+        notify("Auto-Stomp " .. tostring(as))
+    end
+    if args[1] == Prefix .. "ar" or args[1] == Prefix .. "areset" then
+        ar = not ar
+        notify("Auto-Reset " .. tostring(ar))
+    end
+    if args[1] == Prefix .. "day" then
+        day = true
+        night = false
+    end
+    if args[1] == Prefix .. "night" then
+        day = false
+        night = true
+    end
+    if args[1] == Prefix .. "goto" then
+        if args[2] and args[2] ~= "" and args[2] ~= " " then
+            if args[2] == "display" and args[3] and args[3] ~= "" and args[3] ~= " " then
+                local plr = findplayer(args[3], true)
+                if lp.Character and lp.Character:FindFirstChildOfClass("Humanoid") and plr.Character and plr.Character:FindFirstChildOfClass("Humanoid") then
+                    local pt = Instance.new("Part", workspace)
+                    game.Debris:AddItem(pt, 0.1)
+                    pt.Transparency = 1
+                    pt.CanCollide = false
+                    pt.Anchored = true
+                    pt.CFrame = plr.Character:FindFirstChild("HumanoidRootPart").CFrame
+                    local ww = Instance.new("Weld", pt)
+                    ww.Part0 = pt
+                    ww.Part1 = lp.Character:FindFirstChild("HumanoidRootPart")
+                end
+            else
+                local plr = findplayer(args[2], false)
+                if lp.Character and lp.Character:FindFirstChildOfClass("Humanoid") and plr.Character and plr.Character:FindFirstChildOfClass("Humanoid") then
+                    local pt = Instance.new("Part", workspace)
+                    game.Debris:AddItem(pt, 0.1)
+                    pt.Transparency = 1
+                    pt.CanCollide = false
+                    pt.Anchored = true
+                    pt.CFrame = plr.Character:FindFirstChild("HumanoidRootPart").CFrame
+                    local ww = Instance.new("Weld", pt)
+                    ww.Part0 = pt
+                    ww.Part1 = lp.Character:FindFirstChild("HumanoidRootPart")
+                end
+            end
+        end
+    end
+    if args[1] == Prefix .. "tp" or args[1] == Prefix .. "to" then
+        if args[2] == "1" or args[2] == "f" or args[2] == "food" then
+            local part = Instance.new("Part", workspace)
+            part.Anchored = true
+            part.CanCollide = false
+            part.CFrame = CFrame.new(-2256.73486, 404.5466, -954.518616)
+            part.Transparency = 1
+            game.Debris:AddItem(part, 1)
+ 
+            local weld = Instance.new("Weld", part)
+            weld.Part0 = part
+ 
+            weld.Part1 = lp.Character.HumanoidRootPart
+            wait(0.1)
+            weld.Part1 = nil
+        elseif args[2] == "2" or args[2] == "gs" or args[2] == "gunstore" then
+            local part = Instance.new("Part", workspace)
+            part.Anchored = true
+            part.CanCollide = false
+            part.CFrame = CFrame.new(-2489.80322, 388.863983, -1396.18481)
+            part.Transparency = 1
+            game.Debris:AddItem(part, 1)
+ 
+            local weld = Instance.new("Weld", part)
+            weld.Part0 = part
+ 
+            weld.Part1 = lp.Character.HumanoidRootPart
+            wait(0.1)
+            weld.Part1 = nil
+        elseif args[2] == "3" or args[2] == "b" or args[2] == "bank" then
+            local part = Instance.new("Part", workspace)
+            part.Anchored = true
+            part.CanCollide = false
+            part.CFrame = CFrame.new(-2334.15527, 402.614258, -946.768127)
+            part.Transparency = 1
+            game.Debris:AddItem(part, 1)
+ 
+            local weld = Instance.new("Weld", part)
+            weld.Part0 = part
+ 
+            weld.Part1 = lp.Character.HumanoidRootPart
+            wait(0.1)
+            weld.Part1 = nil
+        elseif args[2] == "4" or args[2] == "rpg" then
+            local part = Instance.new("Part", workspace)
+            part.Anchored = true
+            part.CanCollide = false
+            part.CFrame = CFrame.new(-1820.03491, 354.114227, -935.422668)
+            part.Transparency = 1
+            game.Debris:AddItem(part, 1)
+ 
+            local weld = Instance.new("Weld", part)
+            weld.Part0 = part
+ 
+            weld.Part1 = lp.Character.HumanoidRootPart
+            wait(0.1)
+            weld.Part1 = nil
+        elseif args[2] == "5" or args[2] == "ft" or args[2] == "flamethrower" then
+            local part = Instance.new("Part", workspace)
+            part.Anchored = true
+            part.CanCollide = false
+            part.CFrame = CFrame.new(-2077.3833, 434.674774, -747.421631)
+            part.Transparency = 1
+            game.Debris:AddItem(part, 1)
+ 
+            local weld = Instance.new("Weld", part)
+            weld.Part0 = part
+ 
+            weld.Part1 = lp.Character.HumanoidRootPart
+            wait(0.1)
+            weld.Part1 = nil
+        end
+    end
+end)
+ 
+game.Players.PlayerRemoving:Connect(function(plrr)
+    for _,z in pairs(game.CoreGui:GetChildren()) do
+        if z:IsA'BillboardGui' then
+            if z.Name == plrr.Name then
+                z:Destroy()
+            end
+        end
+    end
+end)
+ 
+spawn(function()
+    rservice.Stepped:Connect(function()
+        if lockedplr and game.Players:FindFirstChild(lockedplr.Name) then
+            if keyss and silentaim then
+                game.ReplicatedStorage.MainRemote:FireServer("MousePos", lockedplr.Character:FindFirstChild("Head").Position + lockedplr.Character:FindFirstChild("Head").Velocity / prediction + lockedplr.Character:FindFirstChild("Head").RotVelocity / 5, "P")
+            elseif keyss and camlock then
+                cam.CFrame = CFrame.new(cam.CFrame.p, lockedplr.Character:FindFirstChild("Head").Position + lockedplr.Character:FindFirstChild("Head").Velocity / prediction + lockedplr.Character:FindFirstChild("Head").RotVelocity / 5)
+            end
+        else
+            if keyss and silentaim then
+                game.ReplicatedStorage.MainRemote:FireServer("MousePos", plr.Character:FindFirstChild("Head").Position + plr.Character:FindFirstChild("Head").Velocity / prediction + plr.Character:FindFirstChild("Head").RotVelocity / 5, "P")
+            elseif keyss and camlock then
+                cam.CFrame = CFrame.new(cam.CFrame.p, plr.Character:FindFirstChild("Head").Position + plr.Character:FindFirstChild("Head").Velocity / prediction + plr.Character:FindFirstChild("Head").RotVelocity / 5)
+            end
+        end
+    end)
+end)
+rservice.RenderStepped:Connect(function()
+    if lp.Character and lp.Character:FindFirstChildOfClass("Humanoid") then
+        if shiftdown then
+            lp.Character:FindFirstChildOfClass("Humanoid").WalkSpeed = 21
+        else
+            lp.Character:FindFirstChildOfClass("Humanoid").WalkSpeed = 16
+        end
+        if ar then
+            if lp.Character and lp.Character:FindFirstChild("I_LOADED_I") and lp.Character:FindFirstChild("I_LOADED_I")['K.O'].Value == true then
+                if lp.Character then
+                    lp.Character:Destroy()
+                end
+            end
+        end
+    end
+    for _,z in pairs(game.Players:GetPlayers()) do
+        for _,v in pairs(game.CoreGui:GetChildren()) do
+            if z.Name == v.Name then
+                if z.Character and z.Character:FindFirstChildOfClass("Humanoid") and z.Character:FindFirstChild("Head") then
+                    v.Adornee = z.Character:FindFirstChild("Head")
+		        else
+		            v.Adornee = nil
+                end
+            end
+        end
+    end
+end)
+ 
+game:GetService("Lighting").Changed:Connect(function()
+    if day then
+        game:GetService("Lighting").ClockTime = 14
+    elseif night then
+        game:GetService("Lighting").ClockTime = 0
+    end
+end)
+game:GetService("Lighting").GlobalShadows = false
+game:GetService("Lighting").ShadowSoftness = 0
+game:GetService("Lighting").Brightness = 1
+game:GetService("Lighting").FogEnd = 9e9
+game:GetService("Lighting").FogStart = 9e9
+lp.PlayerGui.Chat.Frame.ChatChannelParentFrame.Visible = true
+lp.PlayerGui.Chat.Frame.ChatBarParentFrame.Position = lp.PlayerGui.Chat.Frame.ChatChannelParentFrame.Position + UDim2.new(UDim.new(), lp.PlayerGui.Chat.Frame.ChatChannelParentFrame.Size.Y)
